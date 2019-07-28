@@ -1,0 +1,197 @@
+<ScrollView android:id="@+id/comeonman"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/back"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Contactus">
+
+        <TextView
+            android:id="@+id/fa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="1)-WHY DO YOU NEED THIS APP?"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/fa2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#d80000"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="The best application for preparing for GRE examination which covers quant, verbal as well as quiz."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/text"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/fa3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="2)-WHO SHOULD DOWNLOAD THIS APP?"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/fa4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#d80000"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:text="The GRE aspirants who want to score 310+, with ease must have this app in their android device."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/text"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/fa5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="3)-WHAT IS SPECIAL IN THIS APP, THAT OTHERS DO NOT PROVIDE?"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/fa6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#d80000"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:text="This app provides you with maximum study material in min cost. We only charge Rs 500, while other apps out there cost you with a min of Rs1000."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/text"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:id="@+id/fa7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="4)-DOES PREDICTED SCORE OF THIS APP SIMULATES THE EXACT GRE SCORE?"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/fa8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#d80000"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:text="Not the exact, but you can say to maximum possible extent our score is very closer to the score whcih you will get in your GRE."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/text"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/fa9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="5)-HOW MANY QUESTIONS ARE THEIR IN THIS APP OVERALL COMBINING ALL THE 3 SECTIONS?"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/fa10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#d80000"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:text="There are more than 500 practice questions including all the sections, which if you practice completely, your score in GRE will be above 320."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/text"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/fa11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="6)-HOW MANY WORDS ARE THEIR IN THIS APPLICATION FOR IMPROVING VOCAB?"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview2"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/fa12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#d80000"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:text="There are about 3000 words with their meanings and out of these 3000, 1500 words have meaning as well as a sentence as their application."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/text"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

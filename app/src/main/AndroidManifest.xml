@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mega.GRE.Preparation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finallogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Launching">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Privacy" />
+        <activity android:name=".Terms" />
+        <activity android:name=".Faqs" />
+        <activity android:name=".Features" />
+        <activity android:name=".Scores" />
+        <activity android:name=".University" />
+        <activity android:name=".Reasons" />
+        <activity android:name=".Contactus" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".MainActivitytab"
+            android:label="@string/title_activity_main_activitytab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Tabbuttonhandle" />
+        <activity android:name=".Vocabscroll" />
+        <activity android:name=".Top500wordslist" />
+        <activity android:name=".Top500to1000wordslist" />
+        <activity android:name=".Top1001to1500wordslist" />
+        <activity android:name=".Top1501to2000wordslist" />
+        <activity android:name=".Top2001to2500wordslist" />
+        <activity android:name=".Top2501to3000wordslist" />
+        <activity android:name=".Rcscroll" />
+        <activity android:name=".Rcset1" />
+        <activity android:name=".Rcset1score" />
+        <activity android:name=".Rcset1first" />
+        <activity android:name=".Rcset1second" />
+        <activity android:name=".Rcset1third" />
+        <activity android:name=".Rcset1fourth" />
+        <activity android:name=".Rcset1fifth" />
+        <activity android:name=".Rcset1sixth" />
+        <activity android:name=".Rcset1seven" />
+        <activity android:name=".Rcset1eight" />
+        <activity android:name=".Rcset1nine" />
+        <activity android:name=".Resultrcset1" />
+        <activity android:name=".Times" />
+        <activity android:name=".Show" />
+        <activity android:name=".Estimatedscore" />
+        <activity android:name=".Rcset2first"></activity>
+    </application>
+
+</manifest>

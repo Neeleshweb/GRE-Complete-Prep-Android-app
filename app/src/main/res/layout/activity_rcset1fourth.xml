@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back2"
+    android:id="@+id/sc1"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/back2"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Page1">
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="PARAGRAPH 2:--Werner Hoeflich spent the evening at his catering job, making white-wine spritzers and mixing vodka with Tab in a spacious apartment overlooking Central Park. There were orchids, thick rugs, a dog with long blond hair. He walked home late from the subway afterward, along the gated and padlocked streets of the Upper East Side. The trees on his block were scrawny and impervious, like invalid aunts. Once he had seen a parakeet in one of those trees, staring down at him, shifting from foot to foot. The bird had sharpened both sides of its beak on the branch and then made a veering, panicky flight to a windowsill far above. Most of Werner's metaphorical moments were painterly - the juxtaposing of the wild bird and the tame tree, the shimmer of the periwinkle, the splurt of titanium white that fell from it onto the pavement. He loved New York for its simple surprises, although in truth, Oregon and Iowa and Arizona and everywhere else had simple surprises as well. Cantaloupe-colored sunrises, banded cows, Dairy Queens, all kinds of things that didn't include black plastic mountains of trash and the smell of dog urine.   "
+
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/goodback"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="1)-The author takes multiple perspectives when describing New York. What two tones are primarily utilized?"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/goodback"
+            android:layout_marginTop="10dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/text"
+            android:id="@+id/rgs4"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Impressed and critical."
+                android:id="@+id/radio16"
+                android:layout_gravity="left"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Sardonic and optimistic "
+                android:layout_gravity="left"
+                android:id="@+id/radio17" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Detached and Jovial"
+                android:layout_gravity="left"
+                android:id="@+id/radio18" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Ominous and fanciful  "
+                android:id="@+id/radio19" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Pompous and loving"
+                android:id="@+id/radio20" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT QUESTION-->"
+            android:id="@+id/butt4"
+            android:background="@drawable/button_pressed"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</ScrollView>

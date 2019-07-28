@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:id="@+id/sc1"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Page1">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#fffff0"
+        android:textSize="19dp"
+        android:text="PARAGRAPH 1:--I tend, as a reader, to prize and admire clarity, precision, plainness, lucidity, and the sort of magical compression that enriches instead of vitiates. Someone's ability to write this way, especially in nonfiction, fills me with envy, and awe. That might help explain why a fair number of Best American Essay pieces tend to be short, terse, and informal in usage/syntax. Readers who enjoy noodling about genre might welcome the news that several of this year's Best Essays are arguably more like causeries or propos than like essays per se, although one could counterargue that these pieces tend, in their essential pithiness, to be closer to what's historically been meant by 'essay.' Personally, I find taxonomic arguments like this dull and irrelevant. What does seem relevant is to assure you that none of the shorter essays in the collection were included merely because they were short. Limpidity, compactness, and an absence of verbal methane were simply part of what made these pieces valuable; and I think I tried, as the Decider, to use overall value as the prime triage - and filtering mechanism in selecting this year's top essays."
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview2"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="1)-The author of the passage is primarily concerned with"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/goodback"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/rgs1"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explaining what characteristics of writing interest him most."
+            android:id="@+id/radio1"
+            android:layout_gravity="left"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cataloguing the formal qualities of writing that coincide with traditional essays."
+            android:layout_gravity="left"
+            android:id="@+id/radio2" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Educating readers about literary genres."
+            android:layout_gravity="left"
+            android:id="@+id/radio3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Defending the criteria by which he chose the essays that appear in the collection."
+            android:id="@+id/radio4" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Criticizing essays that do not conform to a prescribed format."
+            android:id="@+id/radio5" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT QUESTION-->"
+        android:id="@+id/butt1"
+        android:background="@drawable/button_best"
+        android:layout_margin="@dimen/activity_vertical_margin"
+
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
+</ScrollView>

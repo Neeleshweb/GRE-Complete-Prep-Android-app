@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:id="@+id/scrollView"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rcset1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mega.GRE.Preparation.Rcset1">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="PARAGRAPH 1:--I tend, as a reader, to prize and admire clarity, precision, plainness, lucidity, and the sort of magical compression that enriches instead of vitiates. Someone's ability to write this way, especially in nonfiction, fills me with envy, and awe. That might help explain why a fair number of Best American Essay pieces tend to be short, terse, and informal in usage/syntax. Readers who enjoy noodling about genre might welcome the news that several of this year's Best Essays are arguably more like causeries or propos than like essays per se, although one could counterargue that these pieces tend, in their essential pithiness, to be closer to what's historically been meant by 'essay.' Personally, I find taxonomic arguments like this dull and irrelevant. What does seem relevant is to assure you that none of the shorter essays in the collection were included merely because they were short. Limpidity, compactness, and an absence of verbal methane were simply part of what made these pieces valuable; and I think I tried, as the Decider, to use overall value as the prime triage - and filtering mechanism in selecting this year's top essays. "
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="1)-The author of the passage is primarily concerned with"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/r1"
+
+
+        >
+
+
+        <RadioButton
+            android:text=" Explaining what characteristics of writing interest him most."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+
+
+            />
+
+        <RadioButton
+            android:text="Cataloguing the formal qualities of writing that coincide with traditional essays."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2" />
+
+        <RadioButton
+            android:text="Educating readers about literary genres."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3" />
+
+        <RadioButton
+            android:text="Defending the criteria by which he chose the essays that appear in the collection."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4" />
+
+        <RadioButton
+            android:text="Criticizing essays that do not conform to a prescribed format."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5" />
+
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="2)-The passage supports all of the following EXCEPT:"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/r2"
+
+
+        >
+
+
+        <RadioButton
+            android:text="Conciseness and language use are only one aspect of what gives an essay worth. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton6"
+
+
+            />
+
+        <RadioButton
+            android:text="Essays that vary in length, style, and formality are inferior to those that follow strict rules. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton7" />
+
+        <RadioButton
+            android:text="Taxonomy cannot always apply to writing in the same way it does to scientific concepts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton8" />
+
+        <RadioButton
+            android:text="The length of a piece cannot be considered in evaluating the merit of its ideas. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton9" />
+
+        <RadioButton
+            android:text=" Economy of language can give life to an essay rather than destroy it."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton10" />
+
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="3)-In context, the author refers to causeries (informal writing or conversation) and propos (exchange of spoken words) primarily in order to"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/r3"
+
+
+        >
+
+
+        <RadioButton
+            android:text="Demonstrate that all nonfiction essays are informal in their very nature.  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton11"
+
+
+            />
+
+        <RadioButton
+            android:text=" Argue that spoken language is superior to written language.  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton12" />
+
+        <RadioButton
+            android:text=" Prove that essays, like conversation, are best when pithy and exact."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton13" />
+
+        <RadioButton
+            android:text=" Essays must differ considerably from speech in order to fit the nonfiction essay genre.  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton14" />
+
+        <RadioButton
+            android:text="Explain that an effective essay can have casual elements and need not always follow strict guidelines exactly."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton15" />
+
+
+    </RadioGroup>
+
+    1234
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="PARAGRAPH 2:--Werner Hoeflich spent the evening at his catering job, making white-wine spritzers and mixing vodka with Tab in a spacious apartment overlooking Central Park. There were orchids, thick rugs, a dog with long blond hair. He walked home late from the subway afterward, along the gated and padlocked streets of the Upper East Side. The trees on his block were scrawny and impervious, like invalid aunts. Once he had seen a parakeet in one of those trees, staring down at him, shifting from foot to foot. The bird had sharpened both sides of its beak on the branch and then made a veering, panicky flight to a windowsill far above. Most of Werner's metaphorical moments were painterly - the juxtaposing of the wild bird and the tame tree, the shimmer of the periwinkle, the splurt of titanium white that fell from it onto the pavement. He loved New York for its simple surprises, although in truth, Oregon and Iowa and Arizona and everywhere else had simple surprises as well. Cantaloupe-colored sunrises, banded cows, Dairy Queens, all kinds of things that didn't include black plastic mountains of trash and the smell of dog urine.   "
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="1)-The author takes multiple perspectives when describing New York. What two tones are primarily utilized?"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/r4"
+
+
+        >
+
+
+        <RadioButton
+            android:text=" Impressed and critical "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton16"
+
+
+            />
+
+        <RadioButton
+            android:text=" Sardonic and optimistic "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton17" />
+
+        <RadioButton
+            android:text=" Detached and Jovial "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton18" />
+
+        <RadioButton
+            android:text="Ominous and fanciful "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton19" />
+
+        <RadioButton
+            android:text="Pompous and loving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton20" />
+
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textview27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="2)-With which of the following statements would the author of the passage most likely agree?"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/r5"
+
+
+        >
+
+
+        <RadioButton
+            android:text="Every aspect of New York is unique and admirable. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton21"
+
+
+            />
+
+        <RadioButton
+            android:text="Oregon, Iowa, and Arizona do not have any geographical merit.  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton22" />
+
+        <RadioButton
+            android:text="A single location can have many facets, both positive and negative."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton23" />
+
+        <RadioButton
+            android:text="Large cities tend to lack whimsical and artistic sights."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton24" />
+
+        <RadioButton
+            android:text=" Smaller, Midwest locations are superior to large, urban spaces."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton25" />
+
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="3)-Which of the following CANNOT be inferred about Werner from the passage?"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/r7"
+
+
+        >
+
+
+        <RadioButton
+            android:text="He is a creative and imagistic thinker.   "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton26"
+
+
+            />
+
+        <RadioButton
+            android:text=" He is very biased in favor toward the Upper East Side of New York.   "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton27" />
+
+        <RadioButton
+            android:text=" He does not live at the same level of luxury as those he works for. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton28" />
+
+        <RadioButton
+            android:text="  He is observant, noticing both the affluent aspects of the city as well as its grimier ones  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton29" />
+
+        <RadioButton
+            android:text="He is fascinated and intrigued by colors."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton30" />
+
+
+    </RadioGroup>
+
+    5678
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="PARAGRAPH 3:--Democratic institutions are devices for reconciling social
+    order with individual freedom and initiative, and for making
+    the immediate power of a country's rulers subject to the
+    ultimate power of the ruled. The fact that, in Western Europe
+5    and America, these devices have worked, all things considered,
+    not too badly is proof enough that the eighteenth century
+    optimists were not entirely wrong. Given a fair chance, I
+    repeat; for the fair chance is an indispensable prerequisite.
+    No people that pass abruptly from a state of subservience
+1   under the rule of a despot to the completely unfamiliar state
+    of political independence can be said to have a fair chance
+    of being able to govern itself democratically. Liberalism
+    flourishes in an atmosphere of prosperity and declines as
+    declining prosperity makes it necessary for the government
+1   to intervene ever more frequently and drastically in the
+    affairs of its subjects. Over-population and
+    over-organization are two conditions which ... deprive a
+    society of a fair chance of making democratic institutions
+    work effectively. We see, then, that there are certain
+2   historical, economic, demographic and technological
+    conditions which make it very hard for Jefferson's rational
+    animals, endowed by nature with inalienable rights and an
+    innate sense of justice, to exercise their reason, claim
+    their rights and act justly within a democratically organized
+2   society. We in the West have been supremely fortunate in
+    having been given a fair chance of making the great experiment
+    in self-government. Unfortunately, it now looks as though,
+    owing to recent changes in our circumstances, this infinitely
+    precious fair chance were being, little by little, taken
+3   away from us.  "
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="1)-The authors primary purpose is apparently to?"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/r8"
+
+
+        >
+
+
+        <RadioButton
+            android:text=" Credit certain thinkers with foresight."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton31"
+
+
+            />
+
+        <RadioButton
+            android:text=" Explain a requirement and introduce a warning about that requirement . "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton32" />
+
+        <RadioButton
+            android:text=" Argue for the limitation of a certain form of government . "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton33" />
+
+        <RadioButton
+            android:text="Define the conditions for social order "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton34" />
+
+        <RadioButton
+            android:text="Advocate liberalism in government of a certain era "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton35" />
+
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textview31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="2)-The infinitely precious fair chance highlighted in the last sentence, according to the author is"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/r9"
+
+
+        >
+
+
+        <RadioButton
+            android:text="Unlikely to emerge in an atmosphere of liberalism . "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton36"
+
+
+            />
+
+        <RadioButton
+            android:text=" Incompatible with Jefferson's views .  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton37" />
+
+        <RadioButton
+            android:text="Vitiated in an atmosphere of prosperity."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton38" />
+
+        <RadioButton
+            android:text="An essential precondition for the success of democracy ."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton39" />
+
+        <RadioButton
+            android:text=" Only possible in a large, advanced and highly organised society."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton40" />
+
+
+    </RadioGroup>
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="#000000"
+        android:textSize="19dp"
+        android:text="3)-The author's attitude to the way democratic institutions have functioned in Western Europe and America can best be described as"
+        android:padding="16dp"
+        android:gravity="center"
+
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/text"
+        android:id="@+id/r10"
+
+
+        >
+
+
+        <RadioButton
+            android:text="Deliberate neutrality   "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton41"
+
+
+            />
+
+        <RadioButton
+            android:text="  Cautious approval    "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton42" />
+
+        <RadioButton
+            android:text=" Qualified disapproval  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton43" />
+
+        <RadioButton
+            android:text="   Wholehearted endorsement   "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton44" />
+
+        <RadioButton
+            android:text="Mocking disdain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton45" />
+
+
+    </RadioGroup>
+
+
+
+    <Button
+
+        android:text="SUBMIT AND VIEW SCORE->->"
+        android:textSize="20dp"
+        android:layout_width="284dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#df1616"
+        android:layout_height="50dp"
+        android:background="@drawable/button_disabled"
+        android:id="@+id/submit"
+
+        />
+
+
+</LinearLayout>
+    </ScrollView>

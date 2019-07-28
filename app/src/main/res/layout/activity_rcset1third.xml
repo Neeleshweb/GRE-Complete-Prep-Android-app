@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back2"
+    android:id="@+id/sc1"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/back2"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Page1">
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="PARAGRAPH 1:--I tend, as a reader, to prize and admire clarity, precision, plainness, lucidity, and the sort of magical compression that enriches instead of vitiates. Someone's ability to write this way, especially in nonfiction, fills me with envy, and awe. That might help explain why a fair number of Best American Essay pieces tend to be short, terse, and informal in usage/syntax. Readers who enjoy noodling about genre might welcome the news that several of this year's Best Essays are arguably more like causeries or propos than like essays per se, although one could counterargue that these pieces tend, in their essential pithiness, to be closer to what's historically been meant by 'essay.' Personally, I find taxonomic arguments like this dull and irrelevant. What does seem relevant is to assure you that none of the shorter essays in the collection were included merely because they were short. Limpidity, compactness, and an absence of verbal methane were simply part of what made these pieces valuable; and I think I tried, as the Decider, to use overall value as the prime triage - and filtering mechanism in selecting this year's top essays."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/goodback"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="3)-In context, the author refers to causeries (informal writing or conversation) and propos (exchange of spoken words) primarily in order to:"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/goodback"
+            android:layout_marginTop="10dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/text"
+            android:id="@+id/rgs3"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Demonstrate that all nonfiction essays are informal in their very nature."
+                android:id="@+id/radio11"
+                android:layout_gravity="left"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Argue that spoken language is superior to written language. "
+                android:layout_gravity="left"
+                android:id="@+id/radio12" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prove that essays, like conversation, are best when pithy and exact."
+                android:layout_gravity="left"
+                android:id="@+id/radio13" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Essays must differ considerably from speech in order to fit the nonfiction essay genre. "
+                android:id="@+id/radio14" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Explain that an effective essay can have casual elements and need not always follow strict guidelines exactly."
+                android:id="@+id/radio15" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT PARAGRAPH-->"
+            android:id="@+id/butt3"
+            android:background="@drawable/button_pressed"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</ScrollView>

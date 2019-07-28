@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:id="@+id/sc1"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/back"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Page1">
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="PARAGRAPH 2:--Werner Hoeflich spent the evening at his catering job, making white-wine spritzers and mixing vodka with Tab in a spacious apartment overlooking Central Park. There were orchids, thick rugs, a dog with long blond hair. He walked home late from the subway afterward, along the gated and padlocked streets of the Upper East Side. The trees on his block were scrawny and impervious, like invalid aunts. Once he had seen a parakeet in one of those trees, staring down at him, shifting from foot to foot. The bird had sharpened both sides of its beak on the branch and then made a veering, panicky flight to a windowsill far above. Most of Werner's metaphorical moments were painterly - the juxtaposing of the wild bird and the tame tree, the shimmer of the periwinkle, the splurt of titanium white that fell from it onto the pavement. He loved New York for its simple surprises, although in truth, Oregon and Iowa and Arizona and everywhere else had simple surprises as well. Cantaloupe-colored sunrises, banded cows, Dairy Queens, all kinds of things that didn't include black plastic mountains of trash and the smell of dog urine.   "
+
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/goodback"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="2)-With which of the following statements would the author of the passage most likely agree?"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textview"
+            android:layout_marginTop="10dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/text"
+            android:id="@+id/rgs5"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Every aspect of New York is unique and admirable."
+                android:id="@+id/radio21"
+                android:layout_gravity="left"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Oregon, Iowa, and Arizona do not have any geographical merit.  "
+                android:layout_gravity="left"
+                android:id="@+id/radio22" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" A single location can have many facets, both positive and negative."
+                android:layout_gravity="left"
+                android:id="@+id/radio23" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Large cities tend to lack whimsical and artistic sights. "
+                android:id="@+id/radio24" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Smaller, Midwest locations are superior to large, urban spaces."
+                android:id="@+id/radio25" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT QUESTION-->"
+            android:id="@+id/butt5"
+            android:background="@drawable/button_pressed"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back"
+    android:id="@+id/sc1"
+    android:fillViewport="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/back"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Page1">
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="PARAGRAPH 3:--Democratic institutions are devices for reconciling social
+    order with individual freedom and initiative, and for making
+    the immediate power of a country's rulers subject to the
+    ultimate power of the ruled. The fact that, in Western Europe
+    and America, these devices have worked, all things considered,
+    not too badly is proof enough that the eighteenth century
+    optimists were not entirely wrong. Given a fair chance, I
+    repeat; for the fair chance is an indispensable prerequisite.
+    No people that pass abruptly from a state of subservience
+   under the rule of a despot to the completely unfamiliar state
+    of political independence can be said to have a fair chance
+    of being able to govern itself democratically. Liberalism
+    flourishes in an atmosphere of prosperity and declines as
+    declining prosperity makes it necessary for the government
+    to intervene ever more frequently and drastically in the
+    affairs of its subjects. Over-population and
+    over-organization are two conditions which ... deprive a
+    society of a fair chance of making democratic institutions
+    work effectively. We see, then, that there are certain
+    historical, economic, demographic and technological
+    conditions which make it very hard for Jefferson's rational
+    animals, endowed by nature with inalienable rights and an
+    innate sense of justice, to exercise their reason, claim
+    their rights and act justly within a democratically organized
+    society. We in the West have been supremely fortunate in
+    having been given a fair chance of making the great experiment
+    in self-government. Unfortunately, it now looks as though,
+    owing to recent changes in our circumstances, this infinitely
+    precious fair chance were being, little by little, taken
+    away from us.   "
+
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/goodback"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="19dp"
+            android:text="1)-The authors primary purpose is apparently to?"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/goodback"
+            android:layout_marginTop="10dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/text"
+            android:id="@+id/rgs7"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit certain thinkers with foresight."
+                android:id="@+id/radio31"
+                android:layout_gravity="left"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explain a requirement and introduce a warning about that requirement.  "
+                android:layout_gravity="left"
+                android:id="@+id/radio32" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Argue for the limitation of a certain form of government ."
+                android:layout_gravity="left"
+                android:id="@+id/radio33" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Define the conditions for social order.  "
+                android:id="@+id/radio34" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Advocate liberalism in government of a certain era."
+                android:id="@+id/radio35" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT QUESTION-->"
+            android:id="@+id/butt7"
+            android:background="@drawable/button_pressed"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</ScrollView>
